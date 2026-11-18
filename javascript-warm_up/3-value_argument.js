@@ -1,11 +1,10 @@
 #!/usr/bin/node
 function print () {
-  const numOfArgs = process.argv.length;
-  if (numOfArgs <= 2) {
+  const toPrint = process.argv[2];
+  if (toPrint === undefined) {
     console.log('No argument');
   } else {
-    const firstArg = process.argv[1];
-    console.log(firstArg);
+    console.log(toPrint);
   }
 }
 print();
