@@ -8,5 +8,5 @@ function print () {
       console.log('C is fun');
     }
   }
-  }
+}
 print();
