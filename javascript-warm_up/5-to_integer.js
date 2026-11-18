@@ -2,7 +2,7 @@
 function print () {
   const toPrint = Number(process.argv[2]);
   if (!Number.isNaN(Number(toPrint))) {
-    console.log(toPrint);
+    console.log('My number: ' + toPrint);
   }
 }
 print();
