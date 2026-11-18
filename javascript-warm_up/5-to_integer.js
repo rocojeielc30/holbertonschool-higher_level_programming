@@ -5,7 +5,7 @@ function print () {
     console.log('Not a number');
   } else {
     const converted = Number(toPrint);
-    console.log(converted);
+    console.log('My number: '+ converted);
   }
 }
 print();
