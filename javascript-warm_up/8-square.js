@@ -12,4 +12,4 @@ function print () {
     console.log(row);
   }
 }
-print();
+print()
